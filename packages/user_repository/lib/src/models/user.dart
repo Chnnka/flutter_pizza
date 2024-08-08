@@ -39,7 +39,6 @@ class MyUser {
 
   @override
   String toString() {
-    // TODO: implement toString
     return "MyUser:$userId,$email,$name,$hasActiveCart";
   }
 }
