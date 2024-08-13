@@ -3,8 +3,8 @@ import 'package:flutter/material.dart';
 import 'package:flutter_bloc/flutter_bloc.dart';
 import 'package:flutter_pizza/screens/auth/blocs/sign_in_bloc/sign_in_bloc.dart';
 import 'package:flutter_pizza/screens/auth/blocs/sign_up_bloc/sign_up_bloc.dart';
-import 'package:flutter_pizza/screens/auth/views/signIn_screen.dart';
-import 'package:flutter_pizza/screens/auth/views/signUp_screen.dart';
+import 'package:flutter_pizza/screens/auth/views/sign_in_screen.dart';
+import 'package:flutter_pizza/screens/auth/views/sign_up_screen.dart';
 import '../../../blocs/authentication_bloc/authentication_bloc.dart';
 
 class WelcomeScreen extends StatefulWidget {

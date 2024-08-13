@@ -29,10 +29,10 @@ class MyAppView extends StatelessWidget {
                     create: (context) => SignInBloc(
                         context.read<AuthenticationBloc>().userRepository),
                   ),
-                  BlocProvider(
-                    create: (context) =>
-                        GetPizzaBloc(FirebasePizzaRepo())..add(GetPizza()),
-                  ),
+                  // BlocProvider(
+                  //   create: (context) =>
+                  //       GetPizzaBloc(FirebasePizzaRepo())..add(GetPizza()),
+                  // ),
                 ],
                 child: const HomeScreen(),
               );

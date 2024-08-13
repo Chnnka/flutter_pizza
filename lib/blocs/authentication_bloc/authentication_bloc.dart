@@ -27,6 +27,7 @@ class AuthenticationBloc
     });
   }
 
+  @override
   Future<void> close() {
     _userSubcription.cancel();
     return super.close();

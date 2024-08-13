@@ -1,4 +1,4 @@
-import 'package:user_repository/src/entities/macros_entity.dart';
+import 'package:pizza_repository/src/entities/macros_entity.dart';
 
 import '../models/models.dart';
 
